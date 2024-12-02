@@ -12,11 +12,11 @@ def maxValue(capacityW, weights, values):
             '''
             Please fill in your answer to replace the "?" in the code block
             '''
-            answer += ?
-            capacityW = ?
+            answer += v
+            capacityW = w
         else:
-            answer += ?
-            capacityW = ?
+            answer += (v / w) * capacityW
+            capacityW = 0
     return answer
 
 
